@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  margin-top: 5%;
+}
+
+.sub_container {
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+
+h1,
+h2,
+span {
+  color: blue; /* Making text color blue */
+}
+
+.selection {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+button {
+  width: 30px; /* Fixed width for circular shape */
+  height: 30px; /* Fixed height for circular shape */
+  border: none;
+  border-radius: 50%; /* Make it circular */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex; /* Centering the + and - signs */
+  justify-content: center;
+  align-items: center;
+}
+
+.increase {
+  background-color: pink;
+}
+
+.decrease {
+  background-color: blue;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Adjusting the size of icons for better visibility */
+.fas.fa-male,
+.fas.fa-child {
+  margin-right: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.count {
+  padding: 0 10px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.small-pizza {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.medium-pizza {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.large-pizza {
+    font-size: 24px;
+    margin-right: 5px;
+}

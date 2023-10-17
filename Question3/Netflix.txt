@@ -1,0 +1,8 @@
+Netflix 
+
+My favourite ott is netflix i like its ui , 
+the special thing it build on reactjs 
+my plan is to create full stack project on netflix using mern stack and 
+soon i will host my project on github and netlify
+make it more optimize and scalable project
+Thank you

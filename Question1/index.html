@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Pizza Order</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Order Pizza</h1>
+
+      <!-- Pizza Size Selection -->
+      <div class="sub_container">
+
+     
+      <div class="selection">
+        <div class="option">
+          <span><i class="fas fa-pizza-slice small-pizza"></i> Small</span>
+          <button class="decrease">-</button>
+          <span class="count">1</span>
+          <button class="increase">+</button>
+        </div>
+        <div class="option">
+          <span><i class="fas fa-pizza-slice medium-pizza"></i> Medium</span>
+          <button class="decrease">-</button>
+          <span class="count">0</span>
+          <button class="increase">+</button>
+        </div>
+        <div class="option">
+          <span><i class="fas fa-pizza-slice large-pizza"></i> Large</span>
+          <button class="decrease">-</button>
+          <span class="count">1</span>
+          <button class="increase">+</button>
+        </div>
+      </div>
+
+      <hr/>
+      <!-- Number of Adults and Children -->
+    <div class="selection">
+    <div class="option">
+        <span><i class="fas fa-male"></i> Adults</span>
+        <button class="decrease">-</button>
+        <span class="count">2</span>
+        <button class="increase">+</button>
+    </div>
+    <hr/>
+    <div class="option">
+        <span><i class="fas fa-child"></i> Children</span>
+        <button class="decrease">-</button>
+        <span class="count">1</span>
+        <button class="increase">+</button>
+    </div>
+</div>
+ </div>
+      <!-- Total Amount -->
+      <div class="total">
+        <span>Order Total</span>
+        <span class="amount">450</span>
+      </div>
+    </div>
+  </body>
+</html>
